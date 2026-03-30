@@ -1,4 +1,4 @@
-import studets
+import students
 import os
 
 def main():
@@ -31,20 +31,20 @@ def main():
         
         # Option 1: Register a new client
         if option == "1":
-            studets.register_student()
+            students.register_student()
 
         # Option 2: Show all registered clients
         elif option == "2":
-            studets.student_shows()
+            students.student_shows()
         
         # Option 3: Display cinema room visualization
         elif option == "3":
-            studets.student_found()
+            students.student_found()
         # Option 4: Execute ticket purchase process
         elif option == "4":
-            studets.student_change()
+            students.student_change()
         elif option == "5":
-            studets.student_delet()
+            students.student_delet()
 
         # Option 6: Exit the system
         elif option == "6":
